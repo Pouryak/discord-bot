@@ -1,5 +1,6 @@
 import asyncio
 import requests
+import os
 
 from discord import (
     Activity,
@@ -13,14 +14,14 @@ from datetime import datetime as dt
 # Market ID goes here. This can be found by going to the token's page on
 # CoinGecko ex. --> https://www.coingecko.com/en/coins/<id>.
 ################################################################################
-MARKET_ID = 'ethereum'
+MARKET_ID = os.environ.get('MARKET_ID')
 ################################################################################
 
 ################################################################################
 # Your bot's token goes here. This can be found on the Discord developers
 # portal.
 ################################################################################
-BOT_TOKEN = 'OTQwMzIwNjkxMTk3MTgyMDMz.YgFr4w.uO-3Xtf0T5lFT1uJQAKiJWzbZtY'
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 ################################################################################
 
 print('\n---------- V² DISCORD x COINGECKO BOT ----------\n')
