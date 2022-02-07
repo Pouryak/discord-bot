@@ -20,7 +20,7 @@ MARKET_ID = 'ethereum'
 # Your bot's token goes here. This can be found on the Discord developers
 # portal.
 ################################################################################
-BOT_TOKEN = 'OTQwMzIwNjkxMTk3MTgyMDMz.YgFr4w.0VqSCi7VN2NzhEA_Rq4ILXxXhO8'
+BOT_TOKEN = 'OTQwMzIwNjkxMTk3MTgyMDMz.YgFr4w.uO-3Xtf0T5lFT1uJQAKiJWzbZtY'
 ################################################################################
 
 print('\n---------- V² DISCORD x COINGECKO BOT ----------\n')
